@@ -1,0 +1,45 @@
+body{
+  margin:0;
+}
+a{
+  display:block;
+  width:120px;
+  text-decoration:none;
+  color:blue;
+  margin:0;
+  padding:0;
+}
+h1{
+  margin:0;
+  text-align-last: center;
+  border-bottom:5px green solid;
+  border-top:5px green solid;
+}
+h6{
+  margin:0;
+}
+#Date{
+  border-top:5px green solid;
+  padding:0;
+}
+#ListArticle{
+  display:grid;
+  grid-template-columns:130px 1fr;
+}
+#List{
+  width:120px;
+  border-right:5px green solid;
+  margin-right:10px;
+}
+#Now{
+  color:gray;
+}
+@media(max-width:400px){
+  #ListArticle{
+    display:block;
+  }
+  #List{
+    display:block;
+    border-right:none;
+  }
+}
